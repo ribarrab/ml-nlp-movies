@@ -1,0 +1,9 @@
+version: "3.3"
+
+services:
+  api:
+    restart: always
+    build: .
+    image: ricardo8aib/miad-app
+    ports:
+      - 3000:3000
